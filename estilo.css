@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior {
+    background-image: url("imagemdefundo.jpg");
+    height: 65vh;
+    background-size: cover;
+
+}
+
+.titulocabecalho{
+    font-size: 24px;
+    color: white;
+    display: inline;
+    text-shadow: 3px 3px 5px black;
+
+}
+.cabecalho{
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+
+.linkcabecalho{
+    color: white;
+    font-size: 14px;
+    display: inline;
+    margin-left: 20px;
+    text-shadow: 3px 3px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 58px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    position: relative;
+    top: 280px;
+    margin-left: 35px;
+    
+}
+
+form{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+
+}
+
+input{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+textarea{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 05px;
+    padding-left: 10px;
+}
+
+.tituloformulario{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button{
+    width:250px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #40BB15;
+    color: white;
+
+}
+ 
+.caixacentral{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.titulomeio{
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.titulocard{
+    background-color: #219653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+
+.caixainferior{
+    background-color: rgba(139, 69, 19, 0.87);
+}
+
+#tituloinferior{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.paragrafoinferior{
+    color: white;
+    Text-align: justify;
+    font-size: 15px;
+    padding: 20px 50px 50px 50px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #40BB15;
+    color: white;
+}
